@@ -14,7 +14,7 @@ int main(){
 	// Display the matrix
 	printf("matrix1 is:\n");
 	for(r=0; r<2; r++) {
-		for(j=0; j<2; j++) {
+		for(c=0; c<2; c++) {
 			printf("%d ", matrix1[r][c]);
 			if(c==1){
 				printf("\n");
